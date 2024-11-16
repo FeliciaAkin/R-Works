@@ -1,0 +1,107 @@
+# R Variables
+
+text <- "awesome"
+paste("R is", text)
+
+command <- "girl"
+paste("Lare is a", command)
+
+paste(text, command)
+
+# For mathematical operations
+a <- 50
+b <- 17
+c <- 8
+d <- 24
+
+paste(a+d)
+
+paste(b+a+c)
+
+paste(d-b)
+
+# The same value can be allocated to multiple variables in one line
+cabbage <- cauliflower <- broccoli <- "low carb"
+
+# Print variable values
+cabbage
+cauliflower
+broccoli
+
+# The print() function
+
+name <- "Felicia Akin"
+print(name)
+
+for (g in 1:17) {
+  print(g)
+}
+
+# R Data Types
+
+my_var <- 30
+my_var <- "goat"
+
+my_var # print my_var, goat overrules 30
+
+# Basic Data Types
+
+# numeric
+x <- 23.5
+class(x)
+
+# integer
+x <- 500L
+class(x)
+
+# complex
+x <- 6i + 13
+class(x)
+
+# character/string
+x <- "R is exciting"
+class(x)
+
+# logical
+x <- FALSE
+class(x)
+
+# Another order
+
+# integer
+x <- 334L
+class(x)
+
+# logical
+x <- TRUE
+class(x)
+
+# complex
+x <- 8i + 13
+class(x)
+
+# numeric
+x <- 57
+class(x)
+
+x <- 600
+y <- 65
+
+x
+y
+
+class(x)
+class(y)
+
+# Integer
+
+x <- 600L
+y <- 65L
+
+x
+y
+
+class(x)
+class(y)
+
+
