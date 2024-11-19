@@ -1,0 +1,19 @@
+# Math
+# Simple math
+25 + 7
+25 - 7
+
+# To find the lowest or highest number in a set
+max(15, 20, 25)
+min(15, 20, 25)
+
+# To return the square root of a number
+sqrt(36)
+sqrt(49)
+sqrt(144)
+sqrt(64)
+
+# To return the absolute (positive) value of a number
+abs(-3.6)
+abs(-112.6)
+
