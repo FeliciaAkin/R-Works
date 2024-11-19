@@ -104,4 +104,21 @@ y
 class(x)
 class(y)
 
+# Conversions
 
+x <- 2L # integer
+y <- 56  # numeric
+
+# convert from integer to numeric:
+h <- as.numeric(x)
+
+# convert from numeric to integer:
+j <- as.integer(y)
+
+# print values of x and y
+x
+y
+
+# print the class name of a and b
+class(h)
+class(j)
