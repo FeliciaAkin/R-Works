@@ -1,1 +1,44 @@
+#working with strings
+#any quotation mark works
+"hello"
+'hello'
+
+str <- "It is a blessed day.
+I am happy.
+I feel fulfilled!"
+
+str #This doesn't come with a break but rather \n at the points of the paragraphs, however, the cat(str) solves this.
+
+str <- "It is a blessed day.
+I am happy.
+I feel fulfilled!"
+
+cat (str)
+
+#use the nchar() function to find the number of characters in a string
+
+str <- "It is a blessed day.
+I am happy.
+I feel fulfilled!"
+
+nchar (str)
+
+#use the grepl() function to check if a character(s) is present
+
+str <- "It is a blessed day. 
+I am happy.
+I feel fulfilled!"
+
+grepl("blessed", str)
+grepl("o", str)
+grepl("a", str)
+
+#merging strings together
+
+str1 <- "I feel"
+str2 <- "fulfilled!"
+
+paste(str1, str2)
+
+
 
